@@ -227,3 +227,11 @@ cd client
 npm install
 npm run dev
 ```
+
+
+## Technologies Used
+- Node.js
+- Express
+- MongoDB
+- React
+- Chart.js
