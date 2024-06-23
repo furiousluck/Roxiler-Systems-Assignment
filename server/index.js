@@ -25,7 +25,7 @@ mongoose
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.status(200).send("Hello World!");
 });
 
 app.use("/api", require("./routes/dataRoutes"));

@@ -201,9 +201,9 @@ const allData = async (req, res) => {
     return res.status(400).json({ error: "Invalid month" });
   }
   try {
-    const statisticsURL = `https://roxiler-systems-assignment-backend-blue.vercel.app/api/statistics?month=${month}`;
-    const barChartURL = `https://roxiler-systems-assignment-backend-blue.vercel.app/api/bar-chart?month=${month}`;
-    const pieChartURL = `https://roxiler-systems-assignment-backend-blue.vercel.app/api/pie-chart?month=${month}`;
+    const statisticsURL = `https://roxiler-systems-assignment-3hdv.onrender.com/api/statistics?month=${month}`;
+    const barChartURL = `https://roxiler-systems-assignment-3hdv.onrender.com/api/bar-chart?month=${month}`;
+    const pieChartURL = `https://roxiler-systems-assignment-3hdv.onrender.com/api/pie-chart?month=${month}`;
 
     const [statisticsResponse, barChartResponse, pieChartResponse] =
       await Promise.all([
