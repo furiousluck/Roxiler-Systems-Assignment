@@ -9,7 +9,7 @@ const Home = () => {
 
   const checkApiStatus = async () => {
     try {
-      const response = await axiosInstance.get('/');
+      const response = await axiosInstance.get('/status');
       if (response.status === 200) {
         setApiStatus('success');
       } else {

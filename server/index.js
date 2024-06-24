@@ -28,4 +28,8 @@ app.get("/", (req, res) => {
   res.status(200).send("Hello World!");
 });
 
+app.get("/status", (req, res) => {
+  return res.status(200).json("Hello World!");
+});
+
 app.use("/api", require("./routes/dataRoutes"));
